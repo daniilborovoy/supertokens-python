@@ -116,7 +116,7 @@ setup(
         # [crypto] ensures that it installs the `cryptography` library as well
         # based on constraints specified in https://github.com/jpadilla/pyjwt/blob/master/setup.cfg#L50
         "PyJWT[crypto]>=2.5.0,<3.0.0",
-        "httpx>=0.15.0,<=0.27.2",
+        "httpx>=0.28.0,<=0.28.1",
         "pycryptodome<3.21.0",
         "tldextract<5.1.3",
         "asgiref>=3.4.1,<4",
